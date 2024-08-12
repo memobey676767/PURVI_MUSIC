@@ -28,7 +28,7 @@ from PURVIMUSIC.utils.formatters import convert_bytes
 from PURVIMUSIC.utils.inline.song import song_markup
 
 # Command
-SONG_COMMAND = ["song"]
+SONG_COMMAND = ["song", "bul"]
 
 
 @app.on_message(
